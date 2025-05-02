@@ -1,5 +1,6 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+[![wakatime](https://wakatime.com/badge/user/386c6163-f5bb-4ce1-ab25-2d0ef18e1541/project/0a9ef0e6-5404-4870-b93f-a428884e4fcc.svg)](https://wakatime.com/badge/user/386c6163-f5bb-4ce1-ab25-2d0ef18e1541/project/0a9ef0e6-5404-4870-b93f-a428884e4fcc)
 ## Getting Started
 
 First, run the development server:
