@@ -1,3 +1,5 @@
+
+
 const Schedule = () => {
     return (
         <section className="flex flex-col item-center justyfy-center scedule-section py-20">
