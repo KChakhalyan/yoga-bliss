@@ -6,15 +6,15 @@ import Gallery from '@/app/sections/Gallery';
 import Contact from '@/app/sections/Contact';
 
 export default function Home({ params }: { params: { locale: 'en' | 'ru' } }) {
-  const dict = getDictionary(params.locale);
+    const dict = getDictionary(params.locale);
 
-  return (
-    <>
-      <Hero dict={dict} />
-      <About />
-      <Schedule />
-      <Gallery />
-      <Contact />
-    </>
-  );
+    return (
+        <>
+            <Hero dict={dict} />
+            <About />
+            <Schedule />
+            <Gallery />
+            <Contact />
+        </>
+    );
 }
