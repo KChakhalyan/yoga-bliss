@@ -11,6 +11,10 @@ type Props = {
     };
 };
 
+export async function generateStaticParams() {
+    return [{ locale: 'en' }, { locale: 'ru' }];
+}
+
 export default async function Home({ params }: { params: { locale: 'en' | 'ru' } }) {
     const dict = await getDictionary(params.locale); // <== добавили await
 

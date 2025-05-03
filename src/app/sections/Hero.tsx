@@ -7,7 +7,6 @@ type Props = {
 };
 
 const Hero = ({ dict }: Props) => {
-    { console.log(dict.heroTitle) }
     return (
         <section id="hero" className="flex flex-col justify-center items-center min-h-screen bg-[url('/hero.png')] bg-cover bg-center text-center p-6">
             <h1 className="text-7xl font-bold mb-4 font-serif">{dict.heroTitle}</h1>
