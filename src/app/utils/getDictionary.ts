@@ -7,6 +7,6 @@ const dictionaries: Record<'en' | 'ru', DictionaryType> = {
     ru,
 };
 
-export const getDictionary = (locale: 'en' | 'ru'): DictionaryType => {
+export const getDictionary = async (locale: 'en' | 'ru'): Promise<DictionaryType> => {
     return dictionaries[locale];
 };

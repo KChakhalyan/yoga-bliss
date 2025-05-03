@@ -5,8 +5,14 @@ import Schedule from '@/app/sections/Schedule';
 import Gallery from '@/app/sections/Gallery';
 import Contact from '@/app/sections/Contact';
 
-export default function Home({ params }: { params: { locale: 'en' | 'ru' } }) {
-    const dict = getDictionary(params.locale);
+type Props = {
+    params: {
+        locale: string; // теперь просто string
+    };
+};
+
+export default async function Home({ params }: { params: { locale: 'en' | 'ru' } }) {
+    const dict = await getDictionary(params.locale); // <== добавили await
 
     return (
         <>
