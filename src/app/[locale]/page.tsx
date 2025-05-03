@@ -15,7 +15,8 @@ export async function generateStaticParams() {
     return [{ locale: 'en' }, { locale: 'ru' }];
 }
 
-export default async function Home({ params }: { params: { locale: 'en' | 'ru' } }) {
+export default async function Home(props: { params: Promise<{ locale: 'en' | 'ru' }> }) {
+    const params = await props.params;
     const dict = await getDictionary(params.locale); // <== добавили await
 
     return (
