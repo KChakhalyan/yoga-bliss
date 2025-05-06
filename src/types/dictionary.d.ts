@@ -6,4 +6,9 @@ export type DictionaryType = {
     scheduleTitle: string;
     galleryTitle: string;
     contactTitle: string;
+    contactSubtitle: string;
+    contactName: string;
+    contactEmail: string;
+    contactMessage: string;
+    contactButton: string;
 };

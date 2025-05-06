@@ -24,8 +24,8 @@ export default async function Home(props: { params: Promise<{ locale: 'en' | 'ru
             <Hero dict={dict} />
             <About />
             <Schedule />
-            <Gallery />
-            <Contact />
+            <Gallery dict={dict} />
+            <Contact dict={dict} />
         </>
     );
 }

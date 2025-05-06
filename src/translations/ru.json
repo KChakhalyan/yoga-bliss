@@ -5,5 +5,10 @@
     "aboutText": "В Yoga Bliss мы верим в гармонию тела и разума.",
     "scheduleTitle": "Расписание занятий",
     "galleryTitle": "Наша студия",
-    "contactTitle": "Связаться с нами"
+    "contactTitle": "Свяжитесь с нами",
+    "contactSubtitle": "Мы рады обратной связи!",
+    "contactName": "Ваше имя",
+    "contactEmail": "Ваш email",
+    "contactMessage": "Ваше сообщение",
+    "contactButton": "Отправить сообщение"
 }

@@ -5,5 +5,10 @@
     "aboutText": "At Yoga Bliss, we believe in the harmony of body and mind.",
     "scheduleTitle": "Class Schedule",
     "galleryTitle": "Our Studio",
-    "contactTitle": "Contact Us"
+    "contactTitle": "Contact Us",
+    "contactSubtitle": "We'd love to hear from you!",
+    "contactName": "Your Name",
+    "contactEmail": "Your Email",
+    "contactMessage": "Your Message",
+    "contactButton": "Send Message"
 }
