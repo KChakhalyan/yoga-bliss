@@ -6,11 +6,6 @@ import Gallery from '@/app/sections/Gallery';
 import Contact from '@/app/sections/Contact';
 import Footer from '../sections/Footer';
 
-type Props = {
-    params: {
-        locale: string; // теперь просто string
-    };
-};
 
 export async function generateStaticParams() {
     return [{ locale: 'en' }, { locale: 'ru' }];
