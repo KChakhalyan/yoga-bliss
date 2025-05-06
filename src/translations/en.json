@@ -3,12 +3,39 @@
     "heroSubtitle": "Find your inner peace and harmony",
     "aboutTitle": "About Our Studio",
     "aboutText": "At Yoga Bliss, we believe in the harmony of body and mind.",
-    "scheduleTitle": "Class Schedule",
+    "scheduleTitle": "Weekly Class Schedule",
     "galleryTitle": "Our Studio",
     "contactTitle": "Contact Us",
     "contactSubtitle": "We'd love to hear from you!",
     "contactName": "Your Name",
     "contactEmail": "Your Email",
     "contactMessage": "Your Message",
-    "contactButton": "Send Message"
+    "contactButton": "Send Message",
+    "scheduleDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+    ],
+    "scheduleTimes": [
+        "6:00 AM - 7:00 AM",
+        "8:00 AM - 9:00 AM",
+        "10:00 AM - 11:00 AM",
+        "12:00 PM - 1:00 PM",
+        "2:00 PM - 3:00 PM",
+        "4:00 PM - 5:00 PM",
+        "6:00 PM - 7:00 PM"
+    ],
+    "yogaClasses": [
+        "Hatha Yoga",
+        "Vinyasa Flow",
+        "Ashtanga Yoga",
+        "Yin Yoga",
+        "Restorative Yoga",
+        "Power Yoga",
+        "Meditation"
+    ]
 }

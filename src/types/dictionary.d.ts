@@ -11,4 +11,8 @@ export type DictionaryType = {
     contactEmail: string;
     contactMessage: string;
     contactButton: string;
+    scheduleTitle: string;
+    scheduleDays: string[];
+    yogaClasses: string[];
+    scheduleTimes: string[];
 };

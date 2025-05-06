@@ -1,9 +1,20 @@
-const About = () => {
-    return (
-        <section className="flex flex-col item-center justyfy-center  about-bg py-20">
-            <h1 className="text-4xl text-center font-serif font-bold pb-10">About Us</h1>
-            <p className="text-2xl sm:max-w-2xl mx-auto font-sans">At Yoga Bliss, we believe in the harmony of body and mind. Our mission is to create a space where everyone can find inner peace through the practice of yoga.</p>
-        </section>
-    )
+import FadeInSection from "../components/FadeInSection";
+import type { DictionaryType } from '@/types/dictionary';
+
+
+type Props = {
+    dict: DictionaryType;
 }
-export default About
+const About = ({ dict }: Props) => {
+    return (
+        <FadeInSection>
+            <section id="about" className="py-20 px-6 bg-white">
+                <div className="max-w-3xl mx-auto text-center">
+                    <h2 className="text-4xl font-bold font-serif mb-4">{dict.aboutTitle}</h2>
+                    <p className="text-lg text-gray-700">{dict.aboutText}</p>
+                </div>
+            </section>
+        </FadeInSection>
+    );
+};
+export default About;
