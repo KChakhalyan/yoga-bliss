@@ -38,7 +38,7 @@ const Contact = ({ dict }: Props) => {
             } else {
                 setStatus('error');
             }
-        } catch (error) {
+        } catch {
             setStatus('error');
         }
     };
