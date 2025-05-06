@@ -15,4 +15,6 @@ export type DictionaryType = {
     scheduleDays: string[];
     yogaClasses: string[];
     scheduleTimes: string[];
+    footerAddress: string;
+    footerCopyright: string;
 };

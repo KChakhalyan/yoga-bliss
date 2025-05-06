@@ -4,6 +4,7 @@ import About from '@/app/sections/About';
 import Schedule from '@/app/sections/Schedule';
 import Gallery from '@/app/sections/Gallery';
 import Contact from '@/app/sections/Contact';
+import Footer from '../sections/Footer';
 
 type Props = {
     params: {
@@ -26,6 +27,7 @@ export default async function Home(props: { params: Promise<{ locale: 'en' | 'ru
             <Schedule dict={dict} />
             <Gallery dict={dict} />
             <Contact dict={dict} />
+            <Footer dict={dict} />
         </>
     );
 }
